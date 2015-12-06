@@ -1,9 +1,18 @@
 fileFormatVersion: 2
 guid: 357219ed3fdc5554e87a2f83dacf0110
-timeCreated: 1449383270
+timeCreated: 1449420297
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Entity1_DownIdle
+    21300002: Entity1_UpIdle
+    21300004: Entity1_moveDown1
+    21300006: Entity1_MoveDown2
+    21300008: Entity1_MoveHorizontal1
+    21300010: Entity1_MoveHorizontal2
+    21300012: Entity1_MoveHorizontal3
+    21300014: Entity1_MoveUp1
+    21300016: Entity1_MoveUp2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -49,7 +58,97 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Entity1_DownIdle
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 320
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Entity1_UpIdle
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 320
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Entity1_moveDown1
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 320
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Entity1_MoveDown2
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 320
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Entity1_MoveHorizontal1
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 320
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Entity1_MoveHorizontal2
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 320
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Entity1_MoveHorizontal3
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 320
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Entity1_MoveUp1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 320
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Entity1_MoveUp2
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 320
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
