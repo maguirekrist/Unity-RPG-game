@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour {
         if(currentDirection == PlayerDirection.RIGHT)
         {
             playerAnimator.SetBool("IsHorizontal", true);
-            theScale.x *= -1;
+            theScale.x = 1;
             playerTransform.localScale = theScale;
             if (currentPState == PlayerState.MOVING)
             {
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour {
         {
             playerAnimator.SetBool("IsHorizontal", true);
             //Flip the animations
-            theScale.x *= -1;
+            theScale.x = -1;
             playerTransform.localScale = theScale;
             if (currentPState == PlayerState.MOVING)
             {
